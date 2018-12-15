@@ -1,7 +1,12 @@
+'''
+This program is tested on :
+platform    : windows 10
+Arch        : X64
+'''
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
-import keyboard
+import keyboard     # Used for injecting keystrokes on the windows Dialog Box
 
 driver=webdriver.Chrome("C:\\Users\\win10\\Downloads\\ChromeDriver")    # path to the downloaded driver
 driver.get("https://mail.protonmail.com/login")                         # email service you want to use
