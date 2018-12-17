@@ -1,0 +1,4 @@
+following are the required Python Modules
+
+selenium
+keyboard
